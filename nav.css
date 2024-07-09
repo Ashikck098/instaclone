@@ -1,0 +1,78 @@
+body{
+     direction: ltr;
+       font-family: Open Sans, Arial, sans-serif;
+       font-size: 14px;
+       font-weight: 400;
+       margin: 0px!important;
+       
+}
+
+.navigation-bar{
+     width: 13.2%;
+     height: 100%;
+     display: grid;
+     grid-template-rows: 100px 50px 50px 50px 50px 50px 50px 50px 50px  250px 50px 50px 1fr; 
+     position: fixed;
+     border-right: solid 1px black;
+     padding: 25px;
+     row-gap: 5px;
+     top: 0;
+}
+.header{
+    grid-row: 1;
+}
+
+.intsa-logo{
+    width: 100px;
+    cursor: pointer;  
+}
+
+.nav-bar{
+    cursor: pointer;
+    border-radius: 15px;  
+}
+
+.nav-bar:hover{
+  background-color: rgba(238, 238, 238, 0.815);
+}
+
+.nav-icon{
+    margin-top: 5px;
+    width: 25px;
+    padding-left: 2px;
+}
+
+.nav-bar-tittle{
+    display: inline-block;
+     margin: 0px;
+     margin-left: 15px;
+    vertical-align: super;
+}
+
+.nav-bar-tittle-sup{
+ 
+  display: inline-block;
+  margin: 0px;
+  margin-left: 15px;
+ vertical-align: super;
+}
+
+.dow-nav-bar{
+  display: inline;
+  grid-row:11;
+}
+
+.share-icon{
+  width: 20px;
+    display: none ;
+
+}
+.dow-nav-bar:hover .share-icon{
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.dow-nav-bar2{
+  grid-row: 12;
+}
+
